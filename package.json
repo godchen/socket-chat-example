@@ -4,6 +4,7 @@
   "description": "my first socket.io app",
   "main": "index.js",
   "scripts": {
+    "dev": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -11,5 +12,9 @@
     "command:"
   ],
   "author": "git repository:",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.1.0"
+  }
 }
